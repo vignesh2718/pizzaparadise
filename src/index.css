@@ -24,23 +24,14 @@ div {
   text-decoration: none;
 }
 body {
-  /* background: rgb(10, 5, 10);
-  background: radial-gradient(
-    circle,
-    rgb(12, 25, 125) 0%,
-    rgba(62, 20, 86, 1) 100%
-  ); */
-  /* background: radial-gradient(#ff5d71, #EB3349) 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: hidden; */
+ 
   background: radial-gradient(
     circle closest-corner at center 125px,
     #222,
     black 40%
-  ) no-repeat;
+  ) no-repeat; 
   /* text-align: center; */
-  background-attachment: fixed;
+   background-attachment: fixed;
   overflow: hidden;
 }
 button {
